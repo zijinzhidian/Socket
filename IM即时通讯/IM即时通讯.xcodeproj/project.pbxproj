@@ -20,6 +20,7 @@
 		1869C0D91FF2808600D59CDD /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869C0D51FF2808600D59CDD /* GCDAsyncSocket.m */; };
 		1869C0DA1FF2808600D59CDD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869C0D71FF2808600D59CDD /* GCDAsyncUdpSocket.m */; };
 		1869C0DD1FF281C700D59CDD /* YWCocoaAsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1869C0DC1FF281C700D59CDD /* YWCocoaAsyncSocketManager.m */; };
+		18BA67392007959E0099A5EA /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BA67382007959E0099A5EA /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		1869C0D71FF2808600D59CDD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		1869C0DB1FF281C700D59CDD /* YWCocoaAsyncSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWCocoaAsyncSocketManager.h; sourceTree = "<group>"; };
 		1869C0DC1FF281C700D59CDD /* YWCocoaAsyncSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWCocoaAsyncSocketManager.m; sourceTree = "<group>"; };
+		18BA67382007959E0099A5EA /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		18081FC81FF0AC9700455ADA = {
 			isa = PBXGroup;
 			children = (
+				18BA6737200795600099A5EA /* images */,
 				18081FD31FF0AC9700455ADA /* IM即时通讯 */,
 				18081FEC1FF0AC9700455ADA /* IM即时通讯Tests */,
 				18081FF71FF0AC9700455ADA /* IM即时通讯UITests */,
@@ -177,6 +180,14 @@
 				1869C0D71FF2808600D59CDD /* GCDAsyncUdpSocket.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		18BA6737200795600099A5EA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18BA67382007959E0099A5EA /* 6.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				18081FDE1FF0AC9700455ADA /* Assets.xcassets in Resources */,
 				18081FDC1FF0AC9700455ADA /* Main.storyboard in Resources */,
 				1869C0D81FF2808600D59CDD /* Documentation.html in Resources */,
+				18BA67392007959E0099A5EA /* 6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
